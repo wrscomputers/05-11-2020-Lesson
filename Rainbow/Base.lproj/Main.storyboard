@@ -10,7 +10,7 @@
         <!--Rainbow-->
         <scene sceneID="9GP-j5-xj2">
             <objects>
-                <tableViewController id="4PA-Ge-j1H" sceneMemberID="viewController">
+                <tableViewController id="4PA-Ge-j1H" customClass="RainbowTableViewController" customModule="Rainbow" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Hbj-fo-Gt0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="960.86956521739137" y="156.69642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Color Detail View Controller-->
         <scene sceneID="bzU-Lk-9bJ">
             <objects>
-                <viewController id="rtp-aR-ZW5" sceneMemberID="viewController">
+                <viewController id="rtp-aR-ZW5" customClass="ColorDetailViewController" customModule="Rainbow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0C2-52-B10">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
